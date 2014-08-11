@@ -132,17 +132,17 @@
   <hmtx>
     <mtx name=".notdef" width="0" lsb="0"/>
     <mtx name="NULL" width="0" lsb="0"/>
-    <mtx name="nyan-frame-1" width="500" lsb="0"/>
-    <mtx name="nyan-frame-2" width="500" lsb="0"/>
-    <mtx name="nyan-frame-3" width="500" lsb="0"/>
-    <mtx name="nyan-frame-4" width="500" lsb="0"/>
-    <mtx name="nyan-frame-5" width="500" lsb="0"/>
+    <mtx name="nyan-frame-1" width="480" lsb="0"/>
+    <mtx name="nyan-frame-2" width="480" lsb="0"/>
+    <mtx name="nyan-frame-3" width="480" lsb="0"/>
+    <mtx name="nyan-frame-4" width="480" lsb="0"/>
+    <mtx name="nyan-frame-5" width="480" lsb="0"/>
+    <mtx name="nyan-frame-6" width="480" lsb="0"/>
+    <mtx name="rainbow" width="150" lsb="0"/>
+    <mtx name="outerspace" width="150" lsb="0"/>
     <mtx name="hyphen" width="180" lsb="0"/>
-    <mtx name="nyan-frame-6" width="500" lsb="0"/>
-    <mtx name="rainbow" width="160" lsb="0"/>
     <mtx name="nonmarkingreturn" width="160" lsb="0"/>
     <mtx name="space" width="160" lsb="0"/>
-    <mtx name="outerspace" width="160" lsb="0"/>
   </hmtx>
 
   <cmap>

@@ -23,9 +23,10 @@ Screenshot
 Generating the Font
 ===================
 The font was generated using Python with FontTools and Jens Kutilek 'sbix' code.
-* Install FontTools
+* Install FontTools: `easy_install FontTools`
 * Follow the instructions in http://typophile.com/node/103268 on how to install
 the sbix code
-To generate the nyan font, under "sources", run:
+
+To generate the nyan font, under "font_sources", run:
 * Run `python convert_font.py` (this will generate a NyanTemplate.ttf)
 * Run `python addSbixImages.py` (this will add the pngs and to the template and create Nyan.ttf)

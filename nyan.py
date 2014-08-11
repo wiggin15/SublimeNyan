@@ -12,6 +12,8 @@ class NyanListener(sublime_plugin.EventListener):
         self.frames = cycle(FRAMES)
 
     def on_selection_modified(self, view):
+        if view.size() == 0:
+            return
         pos = float(view.sel()[-1].end()) / float(view.size())
         num_bullets = min(NYAN_SIZE - 1, int(NYAN_SIZE * pos))
         s = RAINBOW * num_bullets + next(self.frames) + OUTERSPACE * max(0, (NYAN_SIZE - num_bullets - 1))

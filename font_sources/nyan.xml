@@ -16,9 +16,6 @@
     <GlyphID id="10" name="nyan-frame-6"/>
     <GlyphID id="11" name="rainbow"/>
     <GlyphID id="12" name="outerspace"/>
-    <GlyphID id="13" name="T.win"/>
-    <GlyphID id="14" name="h.win"/>
-    <GlyphID id="15" name="e.win"/>
   </GlyphOrder>
 
   <head>
@@ -137,12 +134,9 @@
     <mtx name="NULL" width="0" lsb="0"/>
     <mtx name="nyan-frame-1" width="500" lsb="0"/>
     <mtx name="nyan-frame-2" width="500" lsb="0"/>
-    <mtx name="T.win" width="180" lsb="14"/>
     <mtx name="nyan-frame-3" width="500" lsb="0"/>
     <mtx name="nyan-frame-4" width="500" lsb="0"/>
-    <mtx name="e.win" width="180" lsb="25"/>
     <mtx name="nyan-frame-5" width="500" lsb="0"/>
-    <mtx name="h.win" width="180" lsb="8"/>
     <mtx name="hyphen" width="180" lsb="0"/>
     <mtx name="nyan-frame-6" width="500" lsb="0"/>
     <mtx name="rainbow" width="160" lsb="0"/>
@@ -218,268 +212,6 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="T.win" xMin="14" yMin="-2" xMax="169" yMax="172">
-      <contour>
-        <pt x="45" y="8" on="1"/>
-        <pt x="45" y="12" on="0"/>
-        <pt x="46" y="13" on="1"/>
-        <pt x="47" y="15" on="0"/>
-        <pt x="54" y="16" on="0"/>
-        <pt x="56" y="16" on="1"/>
-        <pt x="73" y="16" on="1"/>
-        <pt x="75" y="19" on="1"/>
-        <pt x="75" y="25" on="1"/>
-        <pt x="76" y="30" on="1"/>
-        <pt x="76" y="34" on="1"/>
-        <pt x="76" y="37" on="0"/>
-        <pt x="75" y="44" on="0"/>
-        <pt x="75" y="48" on="1"/>
-        <pt x="75" y="50" on="0"/>
-        <pt x="76" y="52" on="0"/>
-        <pt x="76" y="54" on="1"/>
-        <pt x="76" y="56" on="0"/>
-        <pt x="75" y="62" on="0"/>
-        <pt x="75" y="65" on="1"/>
-        <pt x="75" y="71" on="0"/>
-        <pt x="78" y="79" on="1"/>
-        <pt x="78" y="89" on="1"/>
-        <pt x="78" y="90" on="0"/>
-        <pt x="75" y="94" on="0"/>
-        <pt x="75" y="95" on="1"/>
-        <pt x="75" y="106" on="1"/>
-        <pt x="75" y="107" on="0"/>
-        <pt x="78" y="110" on="0"/>
-        <pt x="78" y="111" on="1"/>
-        <pt x="78" y="116" on="1"/>
-        <pt x="78" y="119" on="0"/>
-        <pt x="76" y="123" on="0"/>
-        <pt x="76" y="126" on="1"/>
-        <pt x="76" y="128" on="0"/>
-        <pt x="78" y="131" on="0"/>
-        <pt x="78" y="134" on="1"/>
-        <pt x="78" y="136" on="0"/>
-        <pt x="76" y="138" on="0"/>
-        <pt x="76" y="140" on="1"/>
-        <pt x="76" y="142" on="0"/>
-        <pt x="78" y="146" on="0"/>
-        <pt x="78" y="148" on="1"/>
-        <pt x="76" y="151" on="1"/>
-        <pt x="76" y="152" on="1"/>
-        <pt x="78" y="154" on="1"/>
-        <pt x="78" y="155" on="1"/>
-        <pt x="78" y="157" on="0"/>
-        <pt x="75" y="157" on="1"/>
-        <pt x="70" y="152" on="1"/>
-        <pt x="68" y="152" on="1"/>
-        <pt x="65" y="154" on="1"/>
-        <pt x="60" y="154" on="1"/>
-        <pt x="57" y="155" on="1"/>
-        <pt x="55" y="155" on="1"/>
-        <pt x="50" y="153" on="0"/>
-        <pt x="49" y="150" on="1"/>
-        <pt x="46" y="143" on="1"/>
-        <pt x="45" y="142" on="1"/>
-        <pt x="44" y="142" on="0"/>
-        <pt x="38" y="138" on="0"/>
-        <pt x="37" y="138" on="1"/>
-        <pt x="34" y="135" on="1"/>
-        <pt x="33" y="134" on="0"/>
-        <pt x="33" y="133" on="1"/>
-        <pt x="32" y="131" on="1"/>
-        <pt x="32" y="123" on="1"/>
-        <pt x="31" y="119" on="0"/>
-        <pt x="25" y="108" on="0"/>
-        <pt x="20" y="108" on="1"/>
-        <pt x="17" y="108" on="0"/>
-        <pt x="14" y="114" on="0"/>
-        <pt x="14" y="116" on="1"/>
-        <pt x="14" y="118" on="0"/>
-        <pt x="15" y="119" on="0"/>
-        <pt x="15" y="121" on="1"/>
-        <pt x="14" y="124" on="1"/>
-        <pt x="14" y="125" on="1"/>
-        <pt x="14" y="126" on="0"/>
-        <pt x="16" y="132" on="0"/>
-        <pt x="16" y="133" on="1"/>
-        <pt x="16" y="134" on="0"/>
-        <pt x="17" y="140" on="0"/>
-        <pt x="17" y="142" on="1"/>
-        <pt x="20" y="148" on="1"/>
-        <pt x="22" y="152" on="0"/>
-        <pt x="24" y="168" on="0"/>
-        <pt x="30" y="168" on="1"/>
-        <pt x="31" y="168" on="1"/>
-        <pt x="32" y="165" on="1"/>
-        <pt x="43" y="165" on="1"/>
-        <pt x="43" y="168" on="0"/>
-        <pt x="37" y="167" on="0"/>
-        <pt x="36" y="169" on="1"/>
-        <pt x="37" y="169" on="0"/>
-        <pt x="41" y="171" on="0"/>
-        <pt x="42" y="171" on="1"/>
-        <pt x="59" y="171" on="1"/>
-        <pt x="63" y="172" on="1"/>
-        <pt x="65" y="172" on="0"/>
-        <pt x="67" y="170" on="1"/>
-        <pt x="71" y="166" on="1"/>
-        <pt x="73" y="166" on="1"/>
-        <pt x="73" y="168" on="1"/>
-        <pt x="72" y="169" on="1"/>
-        <pt x="72" y="171" on="1"/>
-        <pt x="73" y="171" on="0"/>
-        <pt x="85" y="172" on="0"/>
-        <pt x="86" y="172" on="1"/>
-        <pt x="95" y="172" on="1"/>
-        <pt x="104" y="172" on="0"/>
-        <pt x="108" y="171" on="1"/>
-        <pt x="110" y="169" on="0"/>
-        <pt x="109" y="168" on="0"/>
-        <pt x="113" y="166" on="1"/>
-        <pt x="119" y="166" on="1"/>
-        <pt x="119" y="167" on="0"/>
-        <pt x="115" y="171" on="1"/>
-        <pt x="116" y="172" on="1"/>
-        <pt x="125" y="172" on="1"/>
-        <pt x="125" y="169" on="0"/>
-        <pt x="122" y="167" on="0"/>
-        <pt x="122" y="165" on="1"/>
-        <pt x="123" y="165" on="1"/>
-        <pt x="124" y="165" on="0"/>
-        <pt x="127" y="166" on="0"/>
-        <pt x="128" y="166" on="1"/>
-        <pt x="132" y="163" on="1"/>
-        <pt x="134" y="163" on="1"/>
-        <pt x="138" y="163" on="0"/>
-        <pt x="145" y="165" on="0"/>
-        <pt x="149" y="165" on="1"/>
-        <pt x="156" y="165" on="1"/>
-        <pt x="156" y="164" on="0"/>
-        <pt x="161" y="151" on="0"/>
-        <pt x="165" y="134" on="0"/>
-        <pt x="169" y="119" on="0"/>
-        <pt x="169" y="116" on="1"/>
-        <pt x="169" y="107" on="0"/>
-        <pt x="162" y="107" on="1"/>
-        <pt x="160" y="107" on="0"/>
-        <pt x="152" y="112" on="0"/>
-        <pt x="151" y="114" on="1"/>
-        <pt x="151" y="120" on="1"/>
-        <pt x="151" y="123" on="0"/>
-        <pt x="146" y="130" on="0"/>
-        <pt x="145" y="132" on="1"/>
-        <pt x="145" y="136" on="1"/>
-        <pt x="145" y="138" on="0"/>
-        <pt x="139" y="138" on="0"/>
-        <pt x="139" y="139" on="1"/>
-        <pt x="138" y="142" on="1"/>
-        <pt x="136" y="144" on="0"/>
-        <pt x="134" y="143" on="0"/>
-        <pt x="132" y="145" on="1"/>
-        <pt x="130" y="147" on="0"/>
-        <pt x="130" y="149" on="0"/>
-        <pt x="127" y="149" on="1"/>
-        <pt x="125" y="149" on="1"/>
-        <pt x="121" y="148" on="1"/>
-        <pt x="117" y="148" on="1"/>
-        <pt x="115" y="148" on="0"/>
-        <pt x="115" y="143" on="0"/>
-        <pt x="113" y="143" on="1"/>
-        <pt x="109" y="143" on="0"/>
-        <pt x="113" y="151" on="0"/>
-        <pt x="108" y="151" on="1"/>
-        <pt x="104" y="151" on="0"/>
-        <pt x="104" y="146" on="1"/>
-        <pt x="104" y="144" on="1"/>
-        <pt x="104" y="143" on="0"/>
-        <pt x="105" y="142" on="1"/>
-        <pt x="105" y="140" on="1"/>
-        <pt x="104" y="137" on="1"/>
-        <pt x="104" y="132" on="1"/>
-        <pt x="104" y="129" on="0"/>
-        <pt x="105" y="125" on="0"/>
-        <pt x="105" y="122" on="1"/>
-        <pt x="105" y="118" on="0"/>
-        <pt x="104" y="117" on="1"/>
-        <pt x="104" y="91" on="1"/>
-        <pt x="105" y="88" on="1"/>
-        <pt x="105" y="87" on="1"/>
-        <pt x="105" y="85" on="0"/>
-        <pt x="104" y="82" on="0"/>
-        <pt x="104" y="80" on="1"/>
-        <pt x="104" y="78" on="1"/>
-        <pt x="104" y="77" on="0"/>
-        <pt x="105" y="72" on="0"/>
-        <pt x="105" y="71" on="1"/>
-        <pt x="105" y="46" on="1"/>
-        <pt x="105" y="45" on="0"/>
-        <pt x="106" y="44" on="1"/>
-        <pt x="106" y="43" on="1"/>
-        <pt x="105" y="38" on="0"/>
-        <pt x="104" y="30" on="0"/>
-        <pt x="104" y="25" on="1"/>
-        <pt x="104" y="19" on="1"/>
-        <pt x="105" y="18" on="1"/>
-        <pt x="112" y="16" on="0"/>
-        <pt x="126" y="18" on="0"/>
-        <pt x="133" y="16" on="1"/>
-        <pt x="137" y="12" on="0"/>
-        <pt x="137" y="8" on="1"/>
-        <pt x="137" y="-1" on="0"/>
-        <pt x="128" y="-1" on="1"/>
-        <pt x="125" y="-1" on="0"/>
-        <pt x="105" y="-2" on="0"/>
-        <pt x="102" y="-2" on="1"/>
-        <pt x="65" y="-2" on="1"/>
-        <pt x="63" y="-2" on="0"/>
-        <pt x="54" y="-1" on="0"/>
-        <pt x="53" y="-1" on="1"/>
-        <pt x="45" y="3" on="0"/>
-      </contour>
-      <contour>
-        <pt x="139" y="169" on="1"/>
-        <pt x="139" y="172" on="1"/>
-        <pt x="144" y="172" on="1"/>
-        <pt x="145" y="172" on="0"/>
-        <pt x="153" y="171" on="0"/>
-        <pt x="153" y="168" on="1"/>
-        <pt x="141" y="168" on="1"/>
-      </contour>
-      <contour>
-        <pt x="130" y="169" on="1"/>
-        <pt x="130" y="172" on="0"/>
-        <pt x="133" y="172" on="1"/>
-        <pt x="136" y="172" on="0"/>
-        <pt x="136" y="169" on="1"/>
-        <pt x="136" y="168" on="0"/>
-        <pt x="134" y="168" on="1"/>
-        <pt x="130" y="168" on="0"/>
-      </contour>
-      <contour>
-        <pt x="86" y="166" on="1"/>
-        <pt x="86" y="165" on="0"/>
-        <pt x="88" y="165" on="1"/>
-        <pt x="90" y="165" on="0"/>
-        <pt x="90" y="168" on="1"/>
-        <pt x="87" y="168" on="0"/>
-      </contour>
-      <contour>
-        <pt x="104" y="165" on="1"/>
-        <pt x="106" y="165" on="1"/>
-        <pt x="108" y="165" on="0"/>
-        <pt x="108" y="166" on="1"/>
-        <pt x="107" y="167" on="0"/>
-        <pt x="106" y="167" on="1"/>
-        <pt x="104" y="167" on="0"/>
-      </contour>
-      <contour>
-        <pt x="100" y="169" on="1"/>
-        <pt x="98" y="168" on="1"/>
-        <pt x="101" y="168" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
-    </TTGlyph>
-
     <TTGlyph name="nyan-frame-3" xMin="0" yMin="-80" xMax="180" yMax="220">
       <contour>
         <pt x="0" y="-80" on="1"/>
@@ -502,109 +234,12 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="e.win" xMin="25" yMin="-4" xMax="152" yMax="120">
-      <contour>
-        <pt x="94" y="11" on="1"/>
-        <pt x="107" y="11" on="0"/>
-        <pt x="124" y="20" on="0"/>
-        <pt x="132" y="28" on="1"/>
-        <pt x="135" y="31" on="0"/>
-        <pt x="139" y="31" on="1"/>
-        <pt x="147" y="31" on="0"/>
-        <pt x="147" y="24" on="1"/>
-        <pt x="147" y="22" on="0"/>
-        <pt x="145" y="18" on="1"/>
-        <pt x="136" y="8" on="0"/>
-        <pt x="109" y="-4" on="0"/>
-        <pt x="92" y="-4" on="1"/>
-        <pt x="65" y="-4" on="0"/>
-        <pt x="25" y="29" on="0"/>
-        <pt x="25" y="58" on="1"/>
-        <pt x="25" y="87" on="0"/>
-        <pt x="62" y="120" on="0"/>
-        <pt x="88" y="120" on="1"/>
-        <pt x="117" y="120" on="0"/>
-        <pt x="152" y="85" on="0"/>
-        <pt x="152" y="58" on="1"/>
-        <pt x="152" y="52" on="0"/>
-        <pt x="147" y="52" on="1"/>
-        <pt x="57" y="52" on="1"/>
-        <pt x="58" y="36" on="0"/>
-        <pt x="71" y="11" on="0"/>
-      </contour>
-      <contour>
-        <pt x="88" y="105" on="1"/>
-        <pt x="73" y="105" on="0"/>
-        <pt x="59" y="84" on="0"/>
-        <pt x="57" y="67" on="1"/>
-        <pt x="119" y="67" on="1"/>
-        <pt x="117" y="84" on="0"/>
-        <pt x="103" y="105" on="0"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
-    </TTGlyph>
-
     <TTGlyph name="nyan-frame-5" xMin="0" yMin="-80" xMax="360" yMax="220">
       <contour>
         <pt x="0" y="-80" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
-    </TTGlyph>
-
-    <TTGlyph name="h.win" xMin="8" yMin="0" xMax="168" yMax="171">
-      <contour>
-        <pt x="160" y="15" on="1"/>
-        <pt x="168" y="15" on="0"/>
-        <pt x="168" y="7" on="1"/>
-        <pt x="168" y="0" on="0"/>
-        <pt x="160" y="0" on="1"/>
-        <pt x="106" y="0" on="1"/>
-        <pt x="97" y="0" on="0"/>
-        <pt x="97" y="7" on="1"/>
-        <pt x="97" y="15" on="0"/>
-        <pt x="106" y="15" on="1"/>
-        <pt x="118" y="15" on="1"/>
-        <pt x="118" y="78" on="1"/>
-        <pt x="118" y="100" on="0"/>
-        <pt x="99" y="100" on="1"/>
-        <pt x="85" y="100" on="0"/>
-        <pt x="74" y="92" on="1"/>
-        <pt x="66" y="87" on="0"/>
-        <pt x="58" y="79" on="1"/>
-        <pt x="58" y="15" on="1"/>
-        <pt x="71" y="15" on="1"/>
-        <pt x="79" y="15" on="0"/>
-        <pt x="79" y="7" on="1"/>
-        <pt x="79" y="0" on="0"/>
-        <pt x="71" y="0" on="1"/>
-        <pt x="16" y="0" on="1"/>
-        <pt x="8" y="0" on="0"/>
-        <pt x="8" y="7" on="1"/>
-        <pt x="8" y="15" on="0"/>
-        <pt x="16" y="15" on="1"/>
-        <pt x="29" y="15" on="1"/>
-        <pt x="29" y="153" on="1"/>
-        <pt x="16" y="153" on="1"/>
-        <pt x="8" y="153" on="0"/>
-        <pt x="8" y="160" on="1"/>
-        <pt x="8" y="166" on="0"/>
-        <pt x="15" y="167" on="1"/>
-        <pt x="49" y="170" on="1"/>
-        <pt x="58" y="171" on="0"/>
-        <pt x="58" y="163" on="1"/>
-        <pt x="58" y="98" on="1"/>
-        <pt x="68" y="106" on="1"/>
-        <pt x="87" y="119" on="0"/>
-        <pt x="109" y="119" on="1"/>
-        <pt x="129" y="119" on="0"/>
-        <pt x="148" y="97" on="0"/>
-        <pt x="148" y="80" on="1"/>
-        <pt x="148" y="15" on="1"/>
       </contour>
       <instructions><assembly>
         </assembly></instructions>
@@ -748,9 +383,6 @@
     <extraNames>
       <!-- following are the name that are not taken from the standard Mac glyph order -->
       <psName name="NULL"/>
-      <psName name="T.win"/>
-      <psName name="h.win"/>
-      <psName name="e.win"/>
     </extraNames>
   </post>
 

@@ -1,8 +1,8 @@
 import sublime, sublime_plugin
 
-FRAMES = u"\u1351\u1354\u1363\u1365\u1368\u1369"
-RAINBOW = u'\u136b'
-OUTERSPACE = u"\u1375"
+FRAMES = u"\u1AB2\u1AB3\u1AB4\u1AB5\u1AB6\u1AB7"
+RAINBOW = u'\u1AB8'
+OUTERSPACE = u"\u1AB9"
 NYAN_SIZE = 40
 
 class NyanListener(sublime_plugin.EventListener):

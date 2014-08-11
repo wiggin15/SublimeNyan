@@ -6,9 +6,8 @@ This plugin only works on Sublime Text 3 on Mac computers (the font used is not 
 
 Installation
 ============
-* Clone this repository: `git clone https://github.com/wiggin15/SublimeNyan.git`
-* Copy the plugin: `cp nyan.py ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/nyan.py`
-* Install the font: `open Nyan.ttf` and click "Install Font"
+* Install the plugin: `wget https://github.com/wiggin15/SublimeNyan/raw/master/nyan.py -O ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/nyan.py`
+* Install the font: `wget https://github.com/wiggin15/SublimeNyan/raw/master/Nyan.ttf -O ~/Library/Fonts/Nyan.ttf`
 
 Screenshot
 ==========

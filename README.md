@@ -14,6 +14,10 @@ Installation
 `"font.face": "Nyan"`
 (don’t forget to add ','' to the last line: `"shadow_offset": [0, -1],`)
 
+Screenshot
+==========
+![Alt text](/screenshot.png?raw=true)
+
 Generating the Font
 ===================
 The font was generated using Python with FontTools and Jens Kutilek 'sbix' code.

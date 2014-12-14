@@ -8,11 +8,13 @@ NYAN_SIZE = 40
 class NyanListener(sublime_plugin.EventListener):
     def __init__(self):
         from itertools import cycle
+        import platform, os
         super(NyanListener, self).__init__()
         self.frames = cycle(FRAMES)
+        self.enabled = platform.system() == "Darwin" and os.path.exists(os.path.expanduser("~/Library/Fonts/Nyan.ttf"))
 
     def on_selection_modified(self, view):
-        if view.size() == 0:
+        if view.size() == 0 or not self.enabled:
             return
         pos = float(view.sel()[-1].end()) / float(view.size())
         num_bullets = min(NYAN_SIZE - 1, int(NYAN_SIZE * pos))

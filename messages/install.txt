@@ -1,0 +1,12 @@
+Requirements
+------------
+This plugin only works on Sublime Text 3 on Mac computers (the font used is not supported on other platforms)
+
+Installation
+------------
+This plugin requires installing a font on the computer.
+To install the font, run the following command from a teminal prompt:
+
+    wget https://github.com/wiggin15/SublimeNyan/raw/master/Nyan.ttf -O ~/Library/Fonts/Nyan.ttf
+
+Alternatively, download and place the file manually.

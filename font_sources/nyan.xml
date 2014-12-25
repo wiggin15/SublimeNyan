@@ -16,6 +16,14 @@
     <GlyphID id="10" name="nyan-frame-6"/>
     <GlyphID id="11" name="rainbow"/>
     <GlyphID id="12" name="outerspace"/>
+    <GlyphID id="13" name="nyan-frame-1-tbg"/>
+    <GlyphID id="14" name="nyan-frame-2-tbg"/>
+    <GlyphID id="15" name="nyan-frame-3-tbg"/>
+    <GlyphID id="16" name="nyan-frame-4-tbg"/>
+    <GlyphID id="17" name="nyan-frame-5-tbg"/>
+    <GlyphID id="18" name="nyan-frame-6-tbg"/>
+    <GlyphID id="19" name="rainbow-tbg"/>
+    <GlyphID id="20" name="outerspace-tbg"/>
   </GlyphOrder>
 
   <head>
@@ -140,6 +148,14 @@
     <mtx name="nyan-frame-6" width="480" lsb="0"/>
     <mtx name="rainbow" width="150" lsb="0"/>
     <mtx name="outerspace" width="150" lsb="0"/>
+    <mtx name="nyan-frame-1-tbg" width="480" lsb="0"/>
+    <mtx name="nyan-frame-2-tbg" width="480" lsb="0"/>
+    <mtx name="nyan-frame-3-tbg" width="480" lsb="0"/>
+    <mtx name="nyan-frame-4-tbg" width="480" lsb="0"/>
+    <mtx name="nyan-frame-5-tbg" width="480" lsb="0"/>
+    <mtx name="nyan-frame-6-tbg" width="480" lsb="0"/>
+    <mtx name="rainbow-tbg" width="150" lsb="0"/>
+    <mtx name="outerspace-tbg" width="150" lsb="0"/>
     <mtx name="hyphen" width="180" lsb="0"/>
     <mtx name="nonmarkingreturn" width="160" lsb="0"/>
     <mtx name="space" width="160" lsb="0"/>
@@ -160,6 +176,14 @@
       <map code="0x1AB7" name="nyan-frame-6"/>
       <map code="0x1AB8" name="rainbow"/>
       <map code="0x1AB9" name="outerspace"/>
+      <map code="0x1ABA" name="nyan-frame-1-tbg"/>
+      <map code="0x1ABB" name="nyan-frame-2-tbg"/>
+      <map code="0x1ABC" name="nyan-frame-3-tbg"/>
+      <map code="0x1ABD" name="nyan-frame-4-tbg"/>
+      <map code="0x1ABE" name="nyan-frame-5-tbg"/>
+      <map code="0x1ABF" name="nyan-frame-6-tbg"/>
+      <map code="0x1AC0" name="rainbow-tbg"/>
+      <map code="0x1AC1" name="outerspace-tbg"/>
     </cmap_format_4>
     <cmap_format_4 platformID="3" platEncID="1" language="0">
       <map code="0x0" name="NULL"/>
@@ -174,6 +198,14 @@
       <map code="0x1AB7" name="nyan-frame-6"/>
       <map code="0x1AB8" name="rainbow"/>
       <map code="0x1AB9" name="outerspace"/>
+      <map code="0x1ABA" name="nyan-frame-1-tbg"/>
+      <map code="0x1ABB" name="nyan-frame-2-tbg"/>
+      <map code="0x1ABC" name="nyan-frame-3-tbg"/>
+      <map code="0x1ABD" name="nyan-frame-4-tbg"/>
+      <map code="0x1ABE" name="nyan-frame-5-tbg"/>
+      <map code="0x1ABF" name="nyan-frame-6-tbg"/>
+      <map code="0x1AC0" name="rainbow-tbg"/>
+      <map code="0x1AC1" name="outerspace-tbg"/>
     </cmap_format_4>
   </cmap>
 
@@ -245,17 +277,6 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="hyphen" xMin="0" yMin="-80" xMax="180" yMax="220">
-      <contour>
-        <pt x="0" y="-80" on="1"/>
-      </contour>
-      <contour>
-        <pt x="180" y="220" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
-    </TTGlyph>
-
     <TTGlyph name="nyan-frame-6" xMin="0" yMin="-80" xMax="180" yMax="220">
       <contour>
         <pt x="0" y="-80" on="1"/>
@@ -278,10 +299,6 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nonmarkingreturn"/><!-- contains no outline data -->
-
-    <TTGlyph name="space"/><!-- contains no outline data -->
-
     <TTGlyph name="outerspace" xMin="0" yMin="-80" xMax="180" yMax="220">
       <contour>
         <pt x="0" y="-80" on="1"/>
@@ -292,6 +309,109 @@
       <instructions><assembly>
         </assembly></instructions>
     </TTGlyph>
+
+    <TTGlyph name="nyan-frame-1-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nyan-frame-2-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nyan-frame-3-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nyan-frame-4-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nyan-frame-5-tbg" xMin="0" yMin="-80" xMax="360" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nyan-frame-6-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="rainbow-tbg" xMin="0" yMin="-80" xMax="90" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="outerspace-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="hyphen" xMin="0" yMin="-80" xMax="180" yMax="220">
+      <contour>
+        <pt x="0" y="-80" on="1"/>
+      </contour>
+      <contour>
+        <pt x="180" y="220" on="1"/>
+      </contour>
+      <instructions><assembly>
+        </assembly></instructions>
+    </TTGlyph>
+
+    <TTGlyph name="nonmarkingreturn"/><!-- contains no outline data -->
+
+    <TTGlyph name="space"/><!-- contains no outline data -->
 
   </glyf>
 

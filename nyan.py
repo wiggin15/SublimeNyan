@@ -6,24 +6,24 @@ RAINBOW = u'\u1AB8'
 RAINBOW_TBG = u'\u1AC0'
 OUTERSPACE = u"\u1AB9"
 OUTERSPACE_TBG = u"\u1AC1"
-NYAN_SIZE = 40
 
 class NyanListener(sublime_plugin.EventListener):
     def __init__(self):
         from itertools import cycle
         import platform, os
         super(NyanListener, self).__init__()
-        self.tbg = sublime.load_settings("Nyan.sublime-settings").get("transparent-background", False)
+        settings = sublime.load_settings("Nyan.sublime-settings")
+        self.tbg = settings.get("transparent-background", False)
+        self.size = int(settings.get("size", 40))
         self.frames = cycle(FRAMES_TBG if self.tbg else FRAMES)
         self.enabled = platform.system() == "Darwin" and os.path.exists(os.path.expanduser("~/Library/Fonts/Nyan.ttf"))
-        #self.enabled = False
 
     def on_selection_modified(self, view):
         if view.size() == 0 or not self.enabled:
             return
         pos = float(view.sel()[-1].end()) / float(view.size())
-        num_bullets = min(NYAN_SIZE - 1, int(NYAN_SIZE * pos))
+        num_bullets = min(self.size - 1, int(self.size * pos))
         rainbow = RAINBOW_TBG if self.tbg else RAINBOW
         outerspace = OUTERSPACE_TBG if self.tbg else OUTERSPACE
-        s = rainbow * num_bullets + next(self.frames) + outerspace * max(0, (NYAN_SIZE - num_bullets - 1))
+        s = rainbow * num_bullets + next(self.frames) + outerspace * max(0, (self.size - num_bullets - 1))
         view.set_status('anyan', s)

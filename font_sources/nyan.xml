@@ -37,7 +37,7 @@
     <created value="Fri May 24 06:29:44 2013"/>
     <modified value="Fri May 24 09:00:48 2013"/>
     <xMin value="0"/>
-    <yMin value="-80"/>
+    <yMin value="0"/>
     <xMax value="180"/>
     <yMax value="220"/>
     <macStyle value="00000000 00000000"/>
@@ -50,7 +50,7 @@
   <hhea>
     <tableVersion value="1.0"/>
     <ascent value="220"/>
-    <descent value="-80"/>
+    <descent value="0"/>
     <lineGap value="0"/>
     <advanceWidthMax value="180"/>
     <minLeftSideBearing value="0"/>
@@ -124,7 +124,7 @@
     <fsFirstCharIndex value="0"/>
     <fsLastCharIndex value="117"/>
     <sTypoAscender value="220"/>
-    <sTypoDescender value="-80"/>
+    <sTypoDescender value="0"/>
     <sTypoLineGap value="0"/>
     <usWinAscent value="220"/>
     <usWinDescent value="80"/>
@@ -222,9 +222,9 @@
 
     <TTGlyph name="NULL"/><!-- contains no outline data -->
 
-    <TTGlyph name="nyan-frame-1" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-1" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -233,9 +233,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-2" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-2" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -244,9 +244,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-3" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-3" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -255,9 +255,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-4" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-4" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -266,9 +266,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-5" xMin="0" yMin="-80" xMax="360" yMax="220">
+    <TTGlyph name="nyan-frame-5" xMin="0" yMin="0" xMax="360" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -277,9 +277,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-6" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-6" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -288,9 +288,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="rainbow" xMin="0" yMin="-80" xMax="90" yMax="220">
+    <TTGlyph name="rainbow" xMin="0" yMin="0" xMax="90" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -299,9 +299,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="outerspace" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="outerspace" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -310,9 +310,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-1-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-1-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -321,9 +321,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-2-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-2-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -332,9 +332,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-3-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-3-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -343,9 +343,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-4-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-4-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -354,9 +354,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-5-tbg" xMin="0" yMin="-80" xMax="360" yMax="220">
+    <TTGlyph name="nyan-frame-5-tbg" xMin="0" yMin="0" xMax="360" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -365,9 +365,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="nyan-frame-6-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="nyan-frame-6-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -376,9 +376,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="rainbow-tbg" xMin="0" yMin="-80" xMax="90" yMax="220">
+    <TTGlyph name="rainbow-tbg" xMin="0" yMin="0" xMax="90" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -387,9 +387,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="outerspace-tbg" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="outerspace-tbg" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>
@@ -398,9 +398,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="hyphen" xMin="0" yMin="-80" xMax="180" yMax="220">
+    <TTGlyph name="hyphen" xMin="0" yMin="0" xMax="180" yMax="220">
       <contour>
-        <pt x="0" y="-80" on="1"/>
+        <pt x="0" y="0" on="1"/>
       </contour>
       <contour>
         <pt x="180" y="220" on="1"/>

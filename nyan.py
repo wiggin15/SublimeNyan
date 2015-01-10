@@ -9,18 +9,24 @@ OUTERSPACE_TBG = u"\u1AC1"
 
 class NyanListener(sublime_plugin.EventListener):
     def __init__(self):
-        from itertools import cycle
         import platform, os
         super(NyanListener, self).__init__()
+        self.enabled = platform.system() == "Darwin" and os.path.exists(os.path.expanduser("~/Library/Fonts/Nyan.ttf"))
+        self._loading = True
+
+    def _load(self):
+        from itertools import cycle
         settings = sublime.load_settings("Nyan.sublime-settings")
         self.tbg = settings.get("transparent-background", False)
         self.size = int(settings.get("size", 40))
         self.frames = cycle(FRAMES_TBG if self.tbg else FRAMES)
-        self.enabled = platform.system() == "Darwin" and os.path.exists(os.path.expanduser("~/Library/Fonts/Nyan.ttf"))
+        self._loading = False
 
     def on_selection_modified(self, view):
         if view.size() == 0 or not self.enabled:
             return
+        if self._loading:
+            self._load()
         pos = float(view.sel()[-1].end()) / float(view.size())
         num_bullets = min(self.size - 1, int(self.size * pos))
         rainbow = RAINBOW_TBG if self.tbg else RAINBOW
